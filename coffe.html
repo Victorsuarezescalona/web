@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+h1 {
+	font-size: 36px;
+	color: #A25E17;
+}
+h2 {
+	font-size: 36px;
+	color: #FFCC99;
+}
+	<center>
+body,td,th {
+	color: #FFFFFF;
+	font-size: 36px;
+}
+body {
+	background-image: url(Imagenes/coffeetile.jpg);
+}
+</style>
+</head>
+<center>
+<body onload="MM_preloadImages('Imagenes/home_on.png','Imagenes/coffee_on.png')">
+<table width="1200">
+  <tr>
+    <td colspan="7"><img src="Imagenes/header.jpg" width="1200" height="100" /></td>
+  </tr>
+  <tr>
+    <td width="120"><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('home','','Imagenes/home_on.png',1)"><img src="Imagenes/home_off.png" width="116" height="50" id="home" /></a></td>
+    <td width="134"><a href="coffe.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','Imagenes/coffee_on.png',1)"><img src="Imagenes/coffee_off.png" width="134" height="50" id="Image3" /></a></td>
+    <td width="270"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','Imagenes/desserts_on.png',0)"><img src="Imagenes/desserts_off.png" width="158" height="50" id="Image4" /></a></td>
+    <td width="481">&nbsp;</td>
+    <td width="61">&nbsp;</td>
+    <td width="61">&nbsp;</td>
+    <td width="49">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="7"><img src="Imagenes/coffee_harvest.jpg" width="1200" height="400" /></td>
+  </tr>
+</table>
+<h1>Monte Alto</h1>
+<video controls="controls">
+  <source src="15484-264671701.mp4" type="video/mp4" />
+</video>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><img src="Imagenes/footer.png" width="1200" height="157" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="circle" coords="435,78,23" href="https://www.instagram.com/revistalomejordelcafe/" target="_blank" alt="" />
+    <area shape="circle" coords="493,78,23" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FCaffetosmx%2F%3Flocale%3Des_LA" target="_blank" alt="" />
+    <area shape="circle" coords="705,78,26" href="https://x.com/cafecoffeeday?lang=es&amp;mx=2" target="_blank" alt="" />
+    <area shape="circle" coords="765,77,27" href="https://www.youtube.com/c/ApasionadosporelCaf%C3%A9" target="_blank" alt="" />
+  </map>
+</p>
+</body>
+	</center>
+</html>
+
+
+	
